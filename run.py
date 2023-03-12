@@ -1,3 +1,10 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+PLAYER_BOARD = []#set boards as 5/5
+COMPUTER_BOARD =[ ]
+
+def print_board:
+    pass
+
+def create_computerships:
+    pass
+
+def 

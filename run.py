@@ -1,3 +1,4 @@
+# art from https://ascii.co.uk/ and https://asciiart.website/
 print(r"""   
  _           _   _   _           _     _  
 | |         | | | | | |         | |   (_)      
@@ -12,8 +13,17 @@ print(r"""
            )____)____)_____)\\
          _____|____|____|____\\\__
 ---------\                   /---------""")
+# Start game from user input yes or no
+start_game = input("Would you like to play battleships? (yes/no)")
+while start_game == "yes" or "no":
+    if start_game == "yes":
+        main()
+    elif start_game == "no":
+        quit()
+    else: 
+        start_game = input("please choose either (yes/no)")
 
-PLAYER_BOARD = []#set boards as 5/5
+PLAYER_BOARD = [ ] #set boards as 5/5
 COMPUTER_BOARD =[ ]
 
 def print_board():
